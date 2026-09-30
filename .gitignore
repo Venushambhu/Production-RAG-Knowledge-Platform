@@ -5,4 +5,5 @@ __pycache__/
 .pytest_cache/
 eval/results/
 chroma_*/
+data/rbi/*.pdfchroma_*/
 data/rbi/*.pdf
