@@ -1,0 +1,112 @@
+[
+  {
+    "question": "How many days of annual leave do full-time employees get?",
+    "expected_source": "leave_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "When do carried-over leave days expire?",
+    "expected_source": "leave_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "When is a medical certificate needed for sick leave?",
+    "expected_source": "leave_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "How early must parental leave be requested?",
+    "expected_source": "leave_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "What is the deadline for submitting expense claims?",
+    "expected_source": "expense_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "Who must approve expense claims above 500 euros?",
+    "expected_source": "expense_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "Can I fly business class to a conference?",
+    "expected_source": "expense_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "What is the meal allowance for international travel?",
+    "expected_source": "expense_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "Are minibar charges reimbursed?",
+    "expected_source": "expense_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "How long must passwords be?",
+    "expected_source": "it_security_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "Which systems require multi-factor authentication?",
+    "expected_source": "it_security_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "Can I upload customer data to ChatGPT?",
+    "expected_source": "it_security_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "How quickly must a security incident be reported?",
+    "expected_source": "it_security_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "After how many minutes do laptops auto-lock?",
+    "expected_source": "it_security_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "What does the policy say about claims above EUR 500?",
+    "expected_source": "expense_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "Where must security incidents be reported?",
+    "expected_source": "it_security_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "Is full-disk encryption required?",
+    "expected_source": "it_security_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "How much time off do secondary caregivers get?",
+    "expected_source": "leave_policy.md",
+    "in_scope": true
+  },
+  {
+    "question": "What is the bank's stock price today?",
+    "expected_source": null,
+    "in_scope": false
+  },
+  {
+    "question": "Who is the CEO of Northwind Bank?",
+    "expected_source": null,
+    "in_scope": false
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "expected_source": null,
+    "in_scope": false
+  },
+  {
+    "question": "Write me a poem about the ocean.",
+    "expected_source": null,
+    "in_scope": false
+  }
+]

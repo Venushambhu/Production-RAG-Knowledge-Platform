@@ -1,0 +1,23 @@
+# Runs the API and the chat UI. Ollama keeps running on your Mac (outside Docker);
+# host.docker.internal lets the container reach it.
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    env_file: .env
+    environment:
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+      CHROMA_DIR: /data/chroma
+    volumes:
+      - chroma:/data/chroma            # vectors survive container restarts
+      - hf-cache:/root/.cache/huggingface  # embedding model downloaded once
+  ui:
+    build: .
+    command: streamlit run ui/streamlit_app.py --server.port 8501 --server.address 0.0.0.0
+    ports: ["8501:8501"]
+    environment:
+      API_URL: http://api:8000         # service name = hostname inside the compose network
+    depends_on: [api]
+volumes:
+  chroma:
+  hf-cache:

@@ -1,0 +1,248 @@
+[
+  {
+    "question": "How often must a bank update KYC for customers it rates as high risk?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "once in every two years",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "What is the minimum KYC updation frequency for medium-risk customers?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "once in every eight years",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "How frequently do low-risk customers need their KYC refreshed?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "10 years for low-risk",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "What is the balance cap on deposit accounts opened remotely with Aadhaar OTP e-KYC?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "aggregate balance of all the deposit accounts",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "How much money can be credited in a year to accounts opened through OTP-based e-KYC?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "Rupees Two Lakh",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "Can a bank give an overdraft or credit card to a customer onboarded with OTP e-KYC, or only certain loans?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "sanction only term loans",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "What is the monthly limit on withdrawals from a small account?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "withdrawals and transfers in a month",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "What is the maximum balance allowed in a small account at any time?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "balance at any point of time does not exceed",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "For how long must banks keep transaction records?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "for at least five years from the date of transaction",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "How often should banks review the risk category assigned to customer accounts?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "at least once in every six months",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "When must a bank identify a customer who has no account with it?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "walk-in customer, where the amount involved",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "How many reminders must a bank send before a customer's KYC update falls due?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "at least three advance intimations",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "Within how many days must a customer inform the bank after their documents change?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "within 30 days of the update",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "Can the same person be both the Principal Officer and the Designated Director?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "not nominate the Principal Officer",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "What shareholding makes someone a beneficial owner of a company customer?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "more than 10 percent of the shares",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "What ownership threshold defines the beneficial owner of an unincorporated association?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "more than 15 percent",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "How recent must a utility bill be to serve as proof of address?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "not more than two months old",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "If a customer uses a utility bill as address proof, by when must they give an OVD with the current address?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "within a period of three months",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "How old can an Aadhaar XML file or QR code be when used for video KYC?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "not older than three working days",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "What limit applies to foreign remittances into a foreign student's account before their local address is verified?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "USD 1,000",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "Is it compulsory for a customer to provide an Aadhaar number for KYC?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "Aadhaar number is not mandatory",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "Where must video KYC recordings and data be stored?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "entire data and recordings of V-CIP",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "Should a bank's video KYC system accept connections from outside India?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "IP addresses outside India",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "Who has to approve opening an account for a politically exposed person?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "approval to open an account for a PEP",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "What must the first transaction be in an account opened through non-face-to-face onboarding?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "First transaction in such accounts",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "How often must banks check the UN sanctions lists?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "on a daily basis",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "How quickly must a bank forward an application to unfreeze assets to the Central Nodal Officer?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "within two working days",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "How often must a bank review its money laundering and terrorist financing risk assessment?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "review it at least annually",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "Is due diligence needed on every member when a self help group opens a savings account?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "CDD of all the office bearers shall suffice",
+    "in_scope": true,
+    "split": "dev"
+  },
+  {
+    "question": "When a customer reports only a change of address, how must the bank verify the new address?",
+    "expected_source": "kyc.pdf",
+    "expected_text": "positive confirmation within two months",
+    "in_scope": true,
+    "split": "test"
+  },
+  {
+    "question": "What is the current repo rate?",
+    "expected_source": null,
+    "in_scope": false,
+    "split": "dev"
+  },
+  {
+    "question": "Who is the Governor of the Reserve Bank of India?",
+    "expected_source": null,
+    "in_scope": false,
+    "split": "test"
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "expected_source": null,
+    "in_scope": false,
+    "split": "dev"
+  },
+  {
+    "question": "Write a short poem about the monsoon.",
+    "expected_source": null,
+    "in_scope": false,
+    "split": "test"
+  },
+  {
+    "question": "What is the GST rate on gold jewellery?",
+    "expected_source": null,
+    "in_scope": false,
+    "split": "dev"
+  },
+  {
+    "question": "How do I reset my UPI PIN in Google Pay?",
+    "expected_source": null,
+    "in_scope": false,
+    "split": "test"
+  }
+]

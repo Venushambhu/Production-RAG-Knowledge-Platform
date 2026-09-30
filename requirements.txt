@@ -1,0 +1,25 @@
+# API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic-settings>=2.4
+# Documents
+pypdf>=5.0
+# LangChain + LLM providers
+langchain-core>=1.0
+langchain-text-splitters>=1.0
+langchain-chroma>=1.0
+langchain-openai>=1.0
+langchain-ollama>=1.0
+langchain-huggingface>=1.0
+langgraph>=1.0
+# Retrieval
+sentence-transformers>=3.0
+chromadb>=1.0
+rank-bm25>=0.2.2
+# UI
+streamlit>=1.40
+requests>=2.32
+# Tests
+pytest>=8.0
+httpx>=0.27
